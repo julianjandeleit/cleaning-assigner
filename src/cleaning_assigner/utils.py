@@ -122,4 +122,4 @@ def pipeline(input_path_cleaners, input_path_apartments, num_solutions=1):
     
     cleaner_timetable = [generate_cleaner_timetables(a, c_timetable) for a in assignments]
     apartment_timetable = [generate_appartment_timetables(a, a_timetable) for a in assignments]
-    return assignments, cleaner_timetable, apartment_timetable 
+    return M_results, assignments, cleaner_timetable, apartment_timetable 
